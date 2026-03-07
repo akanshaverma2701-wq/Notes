@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="-q-AX2u-uzcYM8-imeMQ">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="90827" pageHeight="901169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-3" edge="1" parent="1" source="Ty1kDVWef4bifSe8W-lx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ty1kDVWef4bifSe8W-lx-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-5" edge="1" parent="1" source="Ty1kDVWef4bifSe8W-lx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ty1kDVWef4bifSe8W-lx-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-6" edge="1" parent="1" source="Ty1kDVWef4bifSe8W-lx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ty1kDVWef4bifSe8W-lx-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-8" edge="1" parent="1" source="Ty1kDVWef4bifSe8W-lx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ty1kDVWef4bifSe8W-lx-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3 tier applications&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="360" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Frontend&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Database&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-7" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Backend" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-11" edge="1" parent="1" source="Ty1kDVWef4bifSe8W-lx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ty1kDVWef4bifSe8W-lx-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Server&amp;nbsp; -&amp;nbsp; email server, ftp server, web server, ssh&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="430" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ty1kDVWef4bifSe8W-lx-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="web server - a server which listenst to browser&#39;s request and responds to webpages&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="255" x="590" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
