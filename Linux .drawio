@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="sYT0bQpVFiIIokfnIlrh">
+    <mxGraphModel dx="9001042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linux&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hardware&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="app/ Software&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-6" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-9" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Operating System&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Windows&amp;nbsp; - Powershell&lt;div&gt;Linux - Bash&amp;nbsp;&lt;/div&gt;&lt;div&gt;MacOS - Zsh&amp;nbsp;&lt;/div&gt;&lt;div&gt;Kali Linux&amp;nbsp;&lt;/div&gt;&lt;div&gt;Centos&lt;/div&gt;&lt;div&gt;Redhat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" x="660" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Shell (Bash/ SH) - provides a way so that hardware can intract with software&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-14" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Kernal - Brain of operating system&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Linux&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1) Windows - paid , Linux - open source&lt;div&gt;2) Linux code is available openly on git hub - it has lot of contributors&amp;nbsp;&lt;/div&gt;&lt;div&gt;3) CLI based - it takes less space&amp;nbsp;&lt;/div&gt;&lt;div&gt;4) scalable&amp;nbsp;&lt;/div&gt;&lt;div&gt;5) fast and efficient&amp;nbsp;&lt;/div&gt;&lt;div&gt;6) Security &amp;amp; reliability&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="690" x="140" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="How to use Linux&amp;nbsp;&lt;div&gt;&lt;b&gt;1) WSL&amp;nbsp; windows subsystem for Linux&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;2) Hyperwiser&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;3) Cloud based&amp;nbsp; - VM azure, AWS&amp;nbsp;&lt;/div&gt;&lt;div&gt;4) &lt;b&gt;Killer Koda - Limited time, speed, Performance&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="480" x="245" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="2 types of OS - GUI - Graphics user Interface&amp;nbsp;&lt;div&gt;CLI - Command Line Interface&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="10" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-17" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hardware" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-19" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Windows OS&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-21" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-23" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Hyperwiser - VirtualBox&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Linux&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="70" x="850" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Windows" vertex="1">
+          <mxGeometry height="60" width="80" x="980" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-26" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Windows&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="100" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-35" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-37" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-39" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-40" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-41" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-43" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="C:\" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-32" edge="1" parent="1" source="7nn-oLGp6Rcu_q-DwqWM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7nn-oLGp6Rcu_q-DwqWM-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Linux&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="680" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="680" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-34" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-36" parent="1" style="whiteSpace=wrap;html=1;" value="Per logs&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-38" parent="1" style="whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="50" width="130" x="150" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-42" parent="1" style="whiteSpace=wrap;html=1;" value="Prog File&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="/home - home&amp;nbsp; directory for other user&amp;nbsp;&lt;div&gt;/root&amp;nbsp; - home directory for root user&amp;nbsp;&lt;/div&gt;&lt;div&gt;/boot - contains all bootable files&amp;nbsp;&lt;/div&gt;&lt;div&gt;/etc&amp;nbsp;&lt;/div&gt;&lt;div&gt;/usr&amp;nbsp; - by default softwares are installed here&amp;nbsp;&lt;/div&gt;&lt;div&gt;/bin - it contains commands used by all users&amp;nbsp;&lt;/div&gt;&lt;div&gt;/sbin - commands for root user&lt;/div&gt;&lt;div&gt;/opt&amp;nbsp;&lt;/div&gt;&lt;div&gt;/dev&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="280" x="570" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Linux commands&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="370" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;touch - to create a new blank file&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="640" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ls - to show or list all the files or folders in the current location&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="650" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;cd - to changed the directory / folder&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;cd .. - to go back to the previous folder&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="640" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;mkdir - to create a new folder&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="640" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;pwd -to show the current path / location&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="650" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;cat - to read the content of the file&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="650" x="-10" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;nano - to add content&amp;nbsp; - nano file1&amp;nbsp; ---&amp;gt; content --- &amp;gt; cntrl +X ---&amp;gt; Y/N ---&amp;gt; ctrl+C&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="670" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;vi/ vim -&amp;nbsp; vi file1 -----&amp;gt; press i ----&amp;gt; content likhenge -----&amp;gt; esc key press -----&amp;gt; :wq (save and exit the file)&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="940" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="7nn-oLGp6Rcu_q-DwqWM-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="go to home dir&amp;nbsp;&lt;div&gt;create 3 folders&amp;nbsp; by diff months&amp;nbsp;&lt;/div&gt;&lt;div&gt;create 2 files in each folders by the name of weekdays&amp;nbsp;&lt;/div&gt;&lt;div&gt;write the content in each file&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="860" y="2060" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
