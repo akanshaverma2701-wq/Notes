@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="p4-buGFibjftZmgw7aCC">
-    <mxGraphModel dx="9001030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,9 +19,6 @@
         </mxCell>
         <mxCell id="COpOeYU9uZJUshYcg2-9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Advance Variables&amp;nbsp;&lt;div&gt;List&amp;nbsp; (set)&amp;nbsp;&lt;/div&gt;&lt;div&gt;map&amp;nbsp; - ( tuple , object)&lt;/div&gt;&lt;div&gt;name = akansha&lt;/div&gt;&lt;div&gt;city = kanpur&amp;nbsp;&lt;/div&gt;&lt;div&gt;status = married&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="270" x="644" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="COpOeYU9uZJUshYcg2-9-14" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-13" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="COpOeYU9uZJUshYcg2-9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Primitive&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;String -&amp;nbsp; &quot;....&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;number - any number&amp;nbsp;&lt;/div&gt;&lt;div&gt;Bool - Yes/ No or True/ False&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="300" x="120" y="140" as="geometry" />
@@ -47,8 +44,44 @@
         <mxCell id="COpOeYU9uZJUshYcg2-9-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Using&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name = var.rgname&lt;/div&gt;&lt;div&gt;location = var.rglocation&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="730" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="COpOeYU9uZJUshYcg2-9-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="looping needed to make multiple resources&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="120" x="-40" y="160" as="geometry" />
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-8" edge="1" parent="1" source="2XoTXrhpdEq4S4THSxxF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XoTXrhpdEq4S4THSxxF-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-10" edge="1" parent="1" source="2XoTXrhpdEq4S4THSxxF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XoTXrhpdEq4S4THSxxF-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Problem - primitive vairiables me hame loop lagane ki need hai tbi multiple resources ban sakte hai&amp;nbsp;&lt;div&gt;primitive variables doesnt support loops&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="470" x="285" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;for_each&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;metargument used for looping&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;it can only be used with set/map but not with list&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;for_each can only be used once in a block&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="380" x="40" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;Count&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;metargument used to create multiple type of same resources&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;less used because it uses indexing 0,1,2....&amp;nbsp; &amp;nbsp;hence ye iteration k lie tricky hota hai&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;order change ---&amp;gt; resource recreate&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="350" x="590" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-14" edge="1" parent="1" source="2XoTXrhpdEq4S4THSxxF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XoTXrhpdEq4S4THSxxF-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-16" edge="1" parent="1" source="2XoTXrhpdEq4S4THSxxF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XoTXrhpdEq4S4THSxxF-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-18" edge="1" parent="1" source="2XoTXrhpdEq4S4THSxxF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XoTXrhpdEq4S4THSxxF-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Advance Variables&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="350" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;List&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;anything inside [ ] is list&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;, se seperated hote hai values&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dublicate values bhi le leta hai&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ek hi vatiable and ek hi resource block define krne se kam chal jata hai&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp; rgname = [ &quot;rg01&quot;, &quot;rg02&quot;, &quot;rg03&quot;]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="240" x="20" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Set&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Anything in [ ]&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;duplicate values nahi ho skti&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;list of set banane ke lie &quot;toset&quot; use krte hai&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="360" x="310" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=center;" value="&lt;b&gt;Map&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;anything inside&amp;nbsp; = { }&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;lt; key&amp;gt; = &amp;lt;Value&amp;gt;&amp;nbsp; hoti hai&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;key string hogi&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;values can be anything - string , number, bool, list, set, map&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="250" x="720" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="2XoTXrhpdEq4S4THSxxF-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="rg01&amp;nbsp; ----&amp;gt; west us&lt;div&gt;rg02 -----&amp;gt; east us&lt;/div&gt;&lt;div&gt;rg03 -----&amp;gt; central India&lt;/div&gt;&lt;div&gt;rg04 -----&amp;gt; South India&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="330" x="314" y="1040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
