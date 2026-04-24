@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="p4-buGFibjftZmgw7aCC">
+    <mxGraphModel dx="9001030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="COpOeYU9uZJUshYcg2-9-2" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-3" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Variables&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="280" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Advance Variables&amp;nbsp;&lt;div&gt;List&amp;nbsp; (set)&amp;nbsp;&lt;/div&gt;&lt;div&gt;map&amp;nbsp; - ( tuple , object)&lt;/div&gt;&lt;div&gt;name = akansha&lt;/div&gt;&lt;div&gt;city = kanpur&amp;nbsp;&lt;/div&gt;&lt;div&gt;status = married&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="270" x="644" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-14" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Primitive&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;String -&amp;nbsp; &quot;....&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;number - any number&amp;nbsp;&lt;/div&gt;&lt;div&gt;Bool - Yes/ No or True/ False&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="300" x="120" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-8" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-10" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-12" edge="1" parent="1" source="COpOeYU9uZJUshYcg2-9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="COpOeYU9uZJUshYcg2-9-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="How to use vriables&amp;nbsp; -&lt;b&gt; Variable Block&lt;/b&gt;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="340" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;b&gt;&amp;nbsp;Variable Declaration -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;use Variable block&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Variable &quot;rgname&quot; { }&lt;/div&gt;&lt;div&gt;variable &quot;rglocation&quot; { }&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="340" x="10" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Assigning the value&amp;nbsp;&lt;div&gt;&lt;b&gt;1) using CLI&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2) default&lt;/b&gt;&amp;nbsp; &amp;nbsp;- one resource at a time and while trying to create more resources its destroying the earlier one&amp;nbsp;&lt;/div&gt;&lt;div&gt;3) using .tfvars file&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Using&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;name = var.rgname&lt;/div&gt;&lt;div&gt;location = var.rglocation&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="COpOeYU9uZJUshYcg2-9-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="looping needed to make multiple resources&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="-40" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
