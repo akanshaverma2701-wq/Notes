@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="sYT0bQpVFiIIokfnIlrh">
-    <mxGraphModel dx="9001373" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
+    <mxGraphModel dx="9001030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000000" pageHeight="9011690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,8 +197,8 @@
         <mxCell id="01tutvly6hQ2g5tb8AGT-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;server&amp;nbsp; - any software that serves the client / other system&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;web server&amp;nbsp; - linux - nginx , windows - IIS&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;email server&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ftp sever&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ssh server&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="230" width="650" x="-100" y="2790" as="geometry" />
         </mxCell>
-        <mxCell id="01tutvly6hQ2g5tb8AGT-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="80" width="690" x="50" y="3080" as="geometry" />
+        <mxCell id="01tutvly6hQ2g5tb8AGT-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" value="Web server me&amp;nbsp; html, css, java script me hi details save hogi , kyuki web server yhi samjhta&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="690" x="-130" y="3040" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
